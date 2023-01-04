@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: latest
+      group-id: leenosleep-leenokafka
+
+kafka:
+  consumer:
+    topic: foo
+  producer:
+    topic: bar
